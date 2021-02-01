@@ -22,22 +22,16 @@ $pass_signature = true;
  
  
 // set LINE channel_access_token and channel_secret
-$channel_access_token = "+w1IqMX5IMmxmGvT1qZxuWZ6B1XIg4+r3QzQ0aCzhe8lXEx6stw3LpqZXvxy3fUa25LG0PxfaYHzFZvh2fbqvdTjqO02YygMG8ZrxRwBuezE4TtfHGoIKd/MFaNrpG6m3/iOx3SgfeoaMDaEu7exuQdB04t89/1O/w1cDnyilFU=";
-$channel_secret = "ac3f9a7978e2583b4feebd8153675e0a";
+$channel_access_token = "***************"; //YOUR_CHANNEL_ACCESS_TOKEN
+$channel_secret = "***************"; //YOUR_CHANNEL_SECRET
  
  
 // inisiasi objek bot
 $httpClient = new CurlHTTPClient($channel_access_token);
 $bot = new LINEBot($httpClient, ['channelSecret' => $channel_secret]);
  
- 
- 
- 
 $app = AppFactory::create();
 $app->setBasePath("/public");
- 
- 
- 
  
 $app->get('/', function (Request $request, Response $response, $args) {
     $response->getBody()->write("Hello World!");
