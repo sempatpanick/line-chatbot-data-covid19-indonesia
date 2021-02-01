@@ -1,0 +1,53 @@
+{
+    "type": "bubble",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+            "type": "text",
+            "text": "Kasus Covid-19",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#FFFFFF",
+            "wrap": true
+        }],
+        "backgroundColor": "#007bff"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [{
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Indonesia",
+                    "data": "data=indonesia",
+                    "displayText": "Indonesia"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Provinsi",
+                    "data": "data=provinsi",
+                    "displayText": "Provinsi"
+                }
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "postback",
+                    "label": "Kabupaten",
+                    "data": "data=kabupatenkota",
+                    "displayText": "Kabupaten"
+                }
+            }
+        ]
+    }
+}

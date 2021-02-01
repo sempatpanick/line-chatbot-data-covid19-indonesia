@@ -1,0 +1,81 @@
+{
+    "type": "bubble",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+            "type": "text",
+            "text": "Data Provinsi",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#FFFFFF",
+            "wrap": true
+        }],
+        "backgroundColor": "#007bff"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Banten",
+                    "data": "data=prov_banten",
+                    "displayText": "Banten"
+                }
+            },
+            {
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Daerah Istimewa Yogyakarta",
+                    "data": "data=prov_diy",
+                    "displayText": "Daerah Istimewa Yogyakarta"
+                }
+            },
+            {
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "DKI Jakarta",
+                    "data": "data=prov_dki_jakarta",
+                    "displayText": "DKI Jakarta"
+                }
+            },
+            {
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Jawa Barat",
+                    "data": "data=prov_jawa_barat",
+                    "displayText": "Jawa Barat"
+                }
+            },
+            {
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Jawa Tengah",
+                    "data": "data=prov_jawa_tengah",
+                    "displayText": "Jawa Tengah"
+                }
+            },
+            {
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Jawa Timur",
+                    "data": "data=prov_jawa_timur",
+                    "displayText": "Jawa Timur"
+                }
+            }
+        ]
+    }
+}

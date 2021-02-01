@@ -1,0 +1,41 @@
+{
+    "type": "bubble",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+            "type": "text",
+            "text": "Data Kabupaten",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#FFFFFF",
+            "wrap": true
+        }],
+        "backgroundColor": "#007bff"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Kudus",
+                    "data": "data=kab_kudus",
+                    "displayText": "Kudus"
+                }
+            },
+            {
+                "type": "button",
+                "height": "sm",
+                "action": {
+                    "type": "postback",
+                    "label": "Pati",
+                    "data": "data=kab_pati",
+                    "displayText": "Pati"
+                }
+            }
+        ]
+    }
+}

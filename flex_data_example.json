@@ -1,0 +1,106 @@
+{
+    "type": "bubble",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+            "type": "text",
+            "text": "Kudus",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#FFFFFF",
+            "wrap": true
+        }],
+        "backgroundColor": "#007bff"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+                "type": "text",
+                "text": "Berikut adalah kasus covid-19 di Kudus",
+                "wrap": true
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                        "type": "text",
+                        "text": "Positif",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "12.345",
+                        "weight": "bold"
+                    }
+                ],
+                "margin": "10px"
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                        "type": "text",
+                        "text": "Sembuh",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "10.233",
+                        "weight": "bold"
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                        "type": "text",
+                        "text": "Meninggal",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "324",
+                        "weight": "bold"
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                        "type": "text",
+                        "text": "Dirawat",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "1.000",
+                        "weight": "bold"
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [{
+            "type": "button",
+            "action": {
+                "type": "uri",
+                "label": "WEBSITE",
+                "uri": "http://linecorp.com/",
+                "altUri": {
+                    "desktop": "http://linecorp.com/"
+                }
+            },
+            "color": "#FFFFFF",
+            "height": "sm",
+            "style": "link"
+        }],
+        "backgroundColor": "#6c757d"
+    }
+}
