@@ -19,7 +19,7 @@ use \LINE\LINEBot\SignatureValidator as SignatureValidator;
  
  
 $pass_signature = true;
- 
+
  
 // set LINE channel_access_token and channel_secret
 $channel_access_token = "***************"; //YOUR_CHANNEL_ACCESS_TOKEN
